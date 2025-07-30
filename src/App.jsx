@@ -12,7 +12,8 @@ function App() {
             <Card/>
             <Card/>
             <Food/>
-            <PropCard/>
+            <PropCard height="67"/>
+            <PropCard height="77"/>
             <Footer/>
             
         </>

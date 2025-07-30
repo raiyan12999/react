@@ -1,9 +1,13 @@
-function PropCard(){
+function PropCard(props){
 
     let name = 'Raiyan';
+    
 
     return (
-        <p>{name.toUpperCase()}</p>
+        <div>
+            <p>{name.toUpperCase()}</p>
+            <p>{props.height}</p>
+        </div>
     );
 }
 
