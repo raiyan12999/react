@@ -5,11 +5,13 @@ import Card from './Card.jsx';
 import PropCard from './Propcard.jsx';
 import Student from './Student.jsx';
 import List from './List.jsx';
+import Button from './Button.jsx';
 
 function App() {
     return (
         <>
             <Header/>
+            <Button/>
             <Card/>
             <Card/>
             <Card/>
