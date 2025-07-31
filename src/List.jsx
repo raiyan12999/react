@@ -1,8 +1,12 @@
 function List(){
     const fruits = ["apple", "banana", "mango", "berry"];
 
+    const fruitArray = fruits.map(fruit => <li>{fruit}</li>)
+
     return (
-        <li>{fruits}</li>
+        <ul>
+            <li>{fruitArray}</li>
+        </ul>
     )
 }
 
