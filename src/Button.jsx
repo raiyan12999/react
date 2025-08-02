@@ -1,6 +1,9 @@
 function Button(){
 
-    const handleClick = () => alert("Ouch!");
+    const handleClick = () => {
+        console.log("Stop clicking me bro!");
+        return alert("Stop!");
+    };
 
     return (<button onClick={handleClick}>click me</button>);
 }
