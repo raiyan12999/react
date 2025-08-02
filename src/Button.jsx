@@ -2,10 +2,11 @@ function Button(){
 
     const handleClick = () => {
         console.log("Stop clicking me bro!");
-        return alert("Stop!");
+        document.getElementById("s").innerHTML = "<button>OUCH!</button>";
+        
     };
 
-    return (<button onClick={handleClick}>click me</button>);
+    return (<button id ="s" onClick={handleClick}>click me</button>);
 }
 
 export default Button;
