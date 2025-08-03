@@ -6,6 +6,7 @@ import PropCard from './Propcard.jsx';
 import Student from './Student.jsx';
 import List from './List.jsx';
 import Button from './Button.jsx';
+import Mycomponent from './Mycomponent.jsx';
 
 function App() {
     return (
@@ -17,6 +18,7 @@ function App() {
             <Card/>
             <Food/>
             <List/>
+            <Mycomponent/>
             <PropCard height="67"/>
             <PropCard height="77"/>
             <Student name="Raiyan Bin Atik" age={27} desc="I am a backend developer"/>
